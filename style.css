@@ -1,0 +1,43 @@
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    min-height: 100vh;
+    margin: 0;
+
+    background: repeating-radial-gradient(
+        circle at center,
+        rgb(255, 91, 165) 0px,
+        rgb(255, 91, 165) 50px,
+        rgb(255, 45, 80) 70px,
+        rgb(255, 0, 0) 120px
+    );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+h1 {
+    font-family: "Alfa Slab One", serif;
+    color: blue;
+    font-size: 45px;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: auto;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
